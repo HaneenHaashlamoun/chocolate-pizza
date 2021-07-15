@@ -6,6 +6,12 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     padding: 10px 120px 10px 120px;
+    width: 910px; 
+    margin-right: 30%;
+    margin-left: 10%;
+}
+header{
+    width: 910px;
 }
 
 header h1 {
@@ -18,13 +24,14 @@ header h1 {
 
 #logo {
     position: absolute;
+    
 }
 
 header p {
     font-size: 12px;
     position: absolute;
-    margin-left: 45px;
-    margin-top: 2.8%;
+    margin-left: 50px;
+    margin-top: 2.2%;
     color: gray;
 }
 
@@ -37,15 +44,49 @@ header nav {
 hr {
     width: 100%;
     height: 3px;
-    margin-top: 10%;
+    margin-top: 8%;
+
 }
 
-main {
+/* main {
     margin-left: 120px;
     margin-right: 120px;
-}
+    width: 910px;
+} */
 
 #firstSection {
-    position: absolute;
-    margin-top: 15%;
+    position: relative;
+    margin-top: 3%;
 }
+
+#rssimg{
+    margin-left: 10px;
+}
+
+div h2{
+    font-size: 40px;
+    font-weight: bolder;
+    font-family: 'Staatliches',cursive;
+}
+
+div nav{
+    padding: 2px;
+    color: gray;
+    float: right;
+    margin-right: 150px;  
+    display: inline;
+}
+#print{    
+    float: right;    
+    display: inline;
+}
+
+#firstSection p{
+    color: gray;
+}
+
+#secondSection p{
+    color: gray;
+    margin-top: 50px;
+}
+
