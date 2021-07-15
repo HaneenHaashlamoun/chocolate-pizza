@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap%27');
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap%27');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap%27');
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px 120px 10px 120px;
+}
+
+header h1 {
+    position: absolute;
+    font-family: 'Pacifico', cursive;
+    font-size: 30px;
+    font-style: italic;
+    margin-left: 45px;
+}
+
+#logo {
+    position: absolute;
+}
+
+header p {
+    font-size: 12px;
+    position: absolute;
+    margin-left: 45px;
+    margin-top: 2.8%;
+    color: gray;
+}
+
+header nav {
+    float: right;
+    margin-right: 100px;
+    margin-top: 2%;
+}
+
+hr {
+    width: 100%;
+    height: 3px;
+    margin-top: 10%;
+}
+
+main {
+    margin-left: 120px;
+    margin-right: 120px;
+}
+
+#firstSection {
+    position: absolute;
+    margin-top: 15%;
+}
